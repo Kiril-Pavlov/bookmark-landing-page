@@ -24,7 +24,7 @@
 }
 
 .home-chrome-button{
-    background-color: #405CF5;
+    background-color: var(--primary-color);
     padding: 10px;
     margin-right: 5px;
     border-radius: 5px;

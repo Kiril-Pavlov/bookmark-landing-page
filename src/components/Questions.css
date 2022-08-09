@@ -1,0 +1,26 @@
+.questions-container {
+    text-align: center;
+    width: 450px;
+    margin: auto;
+}
+
+.questions-title {
+    padding-bottom: 10px;
+}
+
+.questions-paragraph {
+    color: var(--gray-color);
+    padding-bottom: 40px;
+}
+
+.more-info-button {
+    margin-top: 35px;
+    background-color: var(--primary-color);
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+

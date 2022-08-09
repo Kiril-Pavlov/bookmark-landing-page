@@ -10,13 +10,10 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <Nav />
       <Home />
-      <Features />
-      <Download />
-      <Questions />
-      <Contact />
-      <Footer />
+     
+      <Questions  />
+    
     </div>
   );
 }

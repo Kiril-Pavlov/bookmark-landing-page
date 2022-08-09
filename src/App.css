@@ -4,7 +4,8 @@
   padding: 0;
 }
 
-.root{
+:root{
   --dark-color:#2a2929;
-  --primary-color:violet;
+  --primary-color:#405CF5;
+  --gray-color:grey;
 }
