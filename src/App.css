@@ -2,10 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Bitter', serif;
 }
 
 :root{
   --dark-color:#2a2929;
-  --primary-color:#405CF5;
+  --primary-color:hsl(231, 69%, 60%);
+  --secondary-color:hsl(0, 94%, 66%);
   --gray-color:grey;
 }
