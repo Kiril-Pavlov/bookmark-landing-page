@@ -1,0 +1,32 @@
+.features-title {
+    padding-bottom: 10px;
+    text-align: center;
+    width: 450px;
+    margin: auto;
+}
+
+.features-paragraph {
+    color: var(--gray-color);
+    padding-bottom: 40px;
+    text-align: center;
+    width: 450px;
+    margin: auto;
+}
+
+@media screen and (max-width:800px) {
+
+    .features-title {
+        padding-bottom: 10px;
+        text-align: center;
+        width: 300px;
+        margin: auto;
+    }
+
+    .features-paragraph {
+        color: var(--gray-color);
+        padding-bottom: 40px;
+        text-align: center;
+        width: 300px;
+        margin: auto;
+    }
+}

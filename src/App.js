@@ -8,19 +8,21 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 const navbarLinks = [
-  {title:"FEATURES",url:"#"},
-  {title:"PRICING",url:"#"},
-  {title:"CONTACT",url:"#"}
+  { title: "FEATURES", url: "#" },
+  { title: "PRICING", url: "#" },
+  { title: "CONTACT", url: "#" }
 ]
 
 function App() {
   return (
     <div className="App">
-      <Nav navbarLinks={navbarLinks}/>
+      <Nav navbarLinks={navbarLinks} />
       {/* <Home /> */}
-     
-      <Questions  />
-    
+      <Features />
+      {/* <Questions  /> */}
+
+
+
     </div>
   );
 }
