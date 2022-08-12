@@ -1,0 +1,133 @@
+.download-title {
+    padding-bottom: 10px;
+    text-align: center;
+    width: 450px;
+    margin: auto;
+}
+
+.download-paragraph {
+    color: var(--gray-color);
+    padding-bottom: 40px;
+    text-align: center;
+    width: 450px;
+    margin: auto;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 40px;
+    justify-content: center;
+}
+
+.chrome-container{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 315px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.firefox-container{
+    position: relative;
+    margin-top: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 315px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.opera-container{
+    position: relative;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 315px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.download-browser-img{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 30px auto;
+}
+
+.cards-container h3{
+    text-align: center;    
+}
+
+.cards-container p{
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+    color: var(--gray-color);
+    font-size: 12px;
+}
+
+.dots-img{
+    margin-bottom: 15px;
+}
+
+.download-button{
+    background-color: var(--primary-color);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    
+}
+
+.download-button:hover{
+    background-color: white;
+    color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+}
+
+@media screen and (max-width:800px) {
+
+    .download-title {
+        padding-bottom: 10px;
+        text-align: center;
+        width: 300px;
+        margin: auto;
+    }
+
+    .download-paragraph {
+        color: var(--gray-color);
+        padding-bottom: 40px;
+        text-align: center;
+        width: 300px;
+        margin: auto;
+    }
+
+    .cards-container{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        grid-gap: 40px;
+        justify-content: center;
+    }
+
+    .chrome-container{
+        align-self: center;
+    }
+
+    .firefox-container{
+        align-self: center;
+        margin-top: 0px;
+    }
+
+    .opera-container{
+        align-self: center;
+        margin-top: 0px;
+    }
+
+}

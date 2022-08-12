@@ -16,9 +16,10 @@ const navbarLinks = [
 function App() {
   return (
     <div className="App">
-      <Nav navbarLinks={navbarLinks} />
+      {/* <Nav navbarLinks={navbarLinks} /> */}
       {/* <Home /> */}
-      <Features />
+      {/* <Features /> */}
+      <Download />
       {/* <Questions  /> */}
 
 
