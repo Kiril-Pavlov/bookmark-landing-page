@@ -16,11 +16,11 @@ const navbarLinks = [
 function App() {
   return (
     <div className="App">
-      {/* <Nav navbarLinks={navbarLinks} /> */}
-      {/* <Home /> */}
-      {/* <Features /> */}
+      <Nav navbarLinks={navbarLinks} />
+      <Home />
+      {/* <Features />
       <Download />
-      {/* <Questions  /> */}
+      <Questions  /> */}
 
 
 
