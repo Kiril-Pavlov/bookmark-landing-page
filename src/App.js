@@ -21,11 +21,8 @@ function App() {
       <Features />
       <Download />
       <Questions  /> 
-
-      <Contact />
-
-
-
+      <Contact /> 
+      <Footer  navbarLinks={navbarLinks}/>
     </div>
   );
 }
