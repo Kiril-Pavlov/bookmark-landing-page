@@ -18,9 +18,11 @@ function App() {
     <div className="App">
       <Nav navbarLinks={navbarLinks} />
       <Home />
-      {/* <Features />
+      <Features />
       <Download />
-      <Questions  /> */}
+      <Questions  /> 
+
+      <Contact />
 
 
 

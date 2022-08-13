@@ -1,0 +1,82 @@
+.contact-container {
+    width: 100%;
+    background-color: var(--primary-color);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.contact-subtitle {
+    color: white;
+    font-size: 14px;
+    padding: 50px 0px 20px 0px;
+}
+
+.contact-title {
+    color: white;
+    font-size: 26px;
+    padding: 0px 0px 20px 0px;
+}
+
+.contact-input {
+    padding: 10px 25px 10px 25px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-button {
+    background-color: var(--secondary-color);
+    padding: 10px 25px 10px 25px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    height: 36px;
+}
+
+.contact-button:hover {
+    background-color: white;
+    border: 3px solid var(--secondary-color);
+    color: var(--secondary-color);
+    transition: all 0.5s ease;
+}
+
+.contact-input-button {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.error-message {
+    color: white;
+    padding: 0px 10px;
+    text-align: left;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.input-message {
+    background-color: var(--secondary-color);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:800px) {
+    .contact-input-button {
+        flex-direction: column;
+        width: 80%;
+        margin: 5px 10%;
+    }
+    .contact-button {
+        width: 100%;
+        margin: 15px 0%;
+    }
+}
