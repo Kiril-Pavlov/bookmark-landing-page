@@ -4,7 +4,7 @@
 
 > Clone a website design for a Bookmark App.
 
-![screenshot](https://github.com/Kiril-Pavlov/Test/blob/main/Screenshot_1.png?raw=true)
+![screenshot](https://github.com/Kiril-Pavlov/bookmark-landing-page/blob/main/Screenshot_1.png?raw=true)
 
 We cloned a given design of a landing page for a Simple Bookmark App.
 
